@@ -35,7 +35,6 @@ if n == 1:
 else:
     for i in range(n-1):
         if var1[i] == var1[i+1]:
-            #i += 1
             num += 1
             if i == n-2:
                 var2 = var2 + str(num) + var1[i]
