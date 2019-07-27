@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#冒泡排序：输出结果升序
+# 冒泡排序：输出结果升序
+# 算法分析：https://my.oschina.net/u/4131409/blog/3079828
+
 def BubbleSort(arr):
     # 1. 计算数组长度
     n = len(arr)
